@@ -104,12 +104,23 @@ export default function ProjectsSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100" data-testid={`project-${project.id}`}>
-              <img
-                src={project.image}
-                alt={`${project.title} Interface`}
-                className="w-full h-48 object-cover"
-                data-testid={`project-image-${project.id}`}
-              />
+              <div className="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={`${project.title} Interface`}
+                  className="w-full h-full object-cover opacity-30"
+                  data-testid={`project-bg-${project.id}`}
+                />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-white rounded-2xl shadow-lg p-4 border-2 border-gray-200">
+                    <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-xl flex items-center justify-center">
+                      <span className="text-white font-bold text-lg" data-testid={`project-logo-${project.id}`}>
+                        {project.title.substring(0, 2).toUpperCase()}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2" data-testid={`project-title-${project.id}`}>
                   {project.title}
