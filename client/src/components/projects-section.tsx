@@ -5,6 +5,7 @@ import collegeReviewLogo from "@assets/image_logo_1755019531957.png";
 import mtvLogo from "@assets/app_logo_1755019568144.png";
 import dscvrLogo from "@assets/dscvr_placeholder_1755019727832.jpg";
 import cocAdminLogo from "@assets/image_logo_1755019779239.png";
+import quoteLogo from "@assets/ic_launcher_1755019982313.png";
 
 export default function ProjectsSection() {
   const logoMap = {
@@ -12,7 +13,8 @@ export default function ProjectsSection() {
     "college-review": collegeReviewLogo,
     mtv: mtvLogo,
     dscvr: dscvrLogo,
-    "coc-admin": cocAdminLogo
+    "coc-admin": cocAdminLogo,
+    quote: quoteLogo
   };
 
   const projects = [
