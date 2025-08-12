@@ -132,11 +132,15 @@ export default function ProjectsSection() {
                   data-testid={`project-bg-${project.id}`}
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-white rounded-2xl shadow-lg p-3 border-2 border-gray-200">
+                  <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 flex items-center justify-center" style={{
+                    padding: project.id === 'college-review' ? '6px' : '12px',
+                    width: '88px',
+                    height: '88px'
+                  }}>
                     <img
                       src={logoMap[project.id as keyof typeof logoMap]}
                       alt={`${project.title} Logo`}
-                      className="w-20 h-20 object-contain rounded-xl"
+                      className="max-w-full max-h-full object-contain rounded-xl"
                       data-testid={`project-logo-${project.id}`}
                     />
                   </div>
