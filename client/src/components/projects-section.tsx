@@ -1,13 +1,27 @@
 import { ExternalLink } from "lucide-react";
 import { SiGoogleplay, SiApple } from "react-icons/si";
+import photospotLogo from "@assets/app_logo_2_1755019497043.png";
+import collegeReviewLogo from "@assets/image_logo_1755019531957.png";
+import mtvLogo from "@assets/app_logo_1755019568144.png";
+import dscvrLogo from "@assets/dscvr_placeholder_1755019727832.jpg";
+import cocAdminLogo from "@assets/image_logo_1755019779239.png";
 
 export default function ProjectsSection() {
+  const logoMap = {
+    photospot: photospotLogo,
+    "college-review": collegeReviewLogo,
+    mtv: mtvLogo,
+    dscvr: dscvrLogo,
+    "coc-admin": cocAdminLogo
+  };
+
   const projects = [
     {
       id: "photospot",
       title: "Photospot App",
       description: "AI-driven travel app for personalized trips, user posts, deep linking, and SEO optimization. Developed fully in Flutter for Android/iOS.",
       image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+      logo: "@assets/app_logo_2_1755019497043.png",
       tags: ["AI Integration", "Deep Linking", "In-App Purchases"],
       role: "Lead + Developer",
       links: {
@@ -21,6 +35,7 @@ export default function ProjectsSection() {
       title: "MTV App",
       description: "Engaging animations, offline support, deep linking, secure in-app purchases for entertainment content.",
       image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+      logo: "@assets/app_logo_1755019568144.png",
       tags: ["Animations", "Offline Support", "Deep Linking"],
       role: "Lead + Developer",
       links: {
@@ -33,6 +48,7 @@ export default function ProjectsSection() {
       title: "Dscvr",
       description: "Real-time user presence and live tracking with geofencing, interactive maps, and daily notifications.",
       image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+      logo: "@assets/dscvr_placeholder_1755019727832.jpg",
       tags: ["Live Tracking", "Geofencing", "Real-time"],
       role: "Lead + Developer",
       links: {
@@ -57,6 +73,7 @@ export default function ProjectsSection() {
       title: "COC Admin",
       description: "Admin dashboard for managing user-created layouts, approvals, and content moderation for Clash of Clans app.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+      logo: "@assets/image_logo_1755019779239.png",
       tags: ["Admin Panel", "Content Management", "Moderation"],
       role: "Developer",
       links: {
@@ -68,6 +85,7 @@ export default function ProjectsSection() {
       title: "College Review App",
       description: "Multi-level question forms, speech-to-text note-taking, image attachments, PDF exports for campus reviews.",
       image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+      logo: "@assets/image_logo_1755019531957.png",
       tags: ["Speech-to-Text", "PDF Export", "Forms"],
       role: "Lead + Developer",
       links: {
@@ -108,16 +126,17 @@ export default function ProjectsSection() {
                 <img
                   src={project.image}
                   alt={`${project.title} Interface`}
-                  className="w-full h-full object-cover opacity-30"
+                  className="w-full h-full object-cover opacity-20"
                   data-testid={`project-bg-${project.id}`}
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-white rounded-2xl shadow-lg p-4 border-2 border-gray-200">
-                    <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-xl flex items-center justify-center">
-                      <span className="text-white font-bold text-lg" data-testid={`project-logo-${project.id}`}>
-                        {project.title.substring(0, 2).toUpperCase()}
-                      </span>
-                    </div>
+                  <div className="bg-white rounded-2xl shadow-lg p-3 border-2 border-gray-200">
+                    <img
+                      src={logoMap[project.id as keyof typeof logoMap]}
+                      alt={`${project.title} Logo`}
+                      className="w-20 h-20 object-contain rounded-xl"
+                      data-testid={`project-logo-${project.id}`}
+                    />
                   </div>
                 </div>
               </div>
