@@ -33,9 +33,20 @@ export default function AboutSection() {
             <p className="text-gray-600 leading-relaxed mb-6" data-testid="bio-paragraph-2">
               I specialize in Flutter app architecture, state management, and integrating RESTful APIs to build feature-rich apps for both Android and iOS. Always eager to learn and adapt, I focus on writing maintainable code and collaborating effectively within agile teams.
             </p>
-            <div className="flex items-center text-teal-600 font-semibold" data-testid="experience-highlight">
-              <Code className="w-5 h-5 mr-2" />
-              4.5+ Years of Experience
+            <div className="space-y-4">
+              <div className="flex items-center text-teal-600 font-semibold" data-testid="experience-highlight">
+                <Code className="w-5 h-5 mr-2" />
+                4.5+ Years of Experience
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-4" data-testid="education-section">
+                <h4 className="font-semibold text-gray-800 mb-2">Education Background</h4>
+                <div className="text-gray-700">
+                  <p className="font-medium">Bachelor of Engineering - Information Technology</p>
+                  <p className="text-sm text-gray-600">SVIT, Vasad, Gujarat | Completed in 2022</p>
+                  <p className="text-sm font-semibold text-teal-600">CGPA: 8.88/10.0</p>
+                </div>
+              </div>
             </div>
           </div>
 

@@ -98,12 +98,19 @@ export default function PdfResume() {
       </div>
 
       <div>
-        <h3 style="color: #0d9488; font-size: 18px; border-bottom: 2px solid #0d9488; padding-bottom: 4px; margin-bottom: 12px;">Education & Certifications</h3>
-        <p style="color: #374151; font-size: 12px; margin: 0;">
-          <strong>Mobile App Development Expertise</strong><br>
-          4.5+ years of professional Flutter development experience<br>
-          Specialized in cross-platform mobile application development
-        </p>
+        <h3 style="color: #0d9488; font-size: 18px; border-bottom: 2px solid #0d9488; padding-bottom: 4px; margin-bottom: 12px;">Education Background</h3>
+        <div style="margin-bottom: 16px;">
+          <h4 style="color: #374151; font-size: 14px; font-weight: bold; margin: 0;">Bachelor of Engineering - Information Technology</h4>
+          <p style="color: #0d9488; font-size: 12px; margin: 0 0 4px 0;">SVIT, Vasad, Gujarat | Completed in 2022</p>
+          <p style="color: #374151; font-size: 12px; margin: 0;"><strong>CGPA: 8.88/10.0</strong></p>
+        </div>
+        <div>
+          <h4 style="color: #374151; font-size: 12px; font-weight: bold; margin: 0 0 8px 0;">Professional Experience</h4>
+          <p style="color: #6b7280; font-size: 11px; margin: 0;">
+            4.5+ years of professional Flutter development experience<br>
+            Specialized in cross-platform mobile application development
+          </p>
+        </div>
       </div>
     `;
     
