@@ -1,5 +1,6 @@
 import { Mail, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/IMG_7835_1755020333250.jpg";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -49,14 +50,12 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="flex-shrink-0">
-            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-teal-100 to-blue-100 shadow-2xl border-8 border-white flex items-center justify-center" data-testid="hero-image">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-teal-600 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <span className="text-3xl font-bold text-white">HM</span>
-                </div>
-                <p className="text-sm text-gray-600 font-medium">Your Photo Here</p>
-              </div>
-            </div>
+            <img
+              src={profileImage}
+              alt="Harikrushn Moradiya - Flutter Developer"
+              className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl border-8 border-white"
+              data-testid="hero-image"
+            />
           </div>
         </div>
       </div>
