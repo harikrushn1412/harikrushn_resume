@@ -133,7 +133,7 @@ export default function ProjectsSection() {
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 flex items-center justify-center" style={{
-                    padding: project.id === 'college-review' ? '6px' : '12px',
+                    padding: project.id === 'college-review' ? '0px' : '12px',
                     width: '88px',
                     height: '88px'
                   }}>
