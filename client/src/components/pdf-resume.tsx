@@ -97,6 +97,28 @@ export default function PdfResume() {
         </div>
       </div>
 
+      <div style="margin-bottom: 24px;">
+        <h3 style="color: #0d9488; font-size: 18px; border-bottom: 2px solid #0d9488; padding-bottom: 4px; margin-bottom: 12px;">Client Testimonials</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 10px;">
+          <div style="background: #f9fafb; padding: 8px; border-radius: 6px;">
+            <p style="color: #374151; margin: 0 0 6px 0; font-style: italic;">"Exceptional Flutter developer who consistently delivers high-quality applications with attention to detail."</p>
+            <p style="color: #0d9488; margin: 0; font-weight: bold;">- Rajesh Patel, Product Manager</p>
+          </div>
+          <div style="background: #f9fafb; padding: 8px; border-radius: 6px;">
+            <p style="color: #374151; margin: 0 0 6px 0; font-style: italic;">"Deep understanding of Flutter architecture resulted in scalable and maintainable code."</p>
+            <p style="color: #0d9488; margin: 0; font-weight: bold;">- Priya Sharma, Technical Lead</p>
+          </div>
+          <div style="background: #f9fafb; padding: 8px; border-radius: 6px;">
+            <p style="color: #374151; margin: 0 0 6px 0; font-style: italic;">"Transformed our app idea into reality with impressive technical expertise and UI/UX standards."</p>
+            <p style="color: #0d9488; margin: 0; font-weight: bold;">- Michael Chen, Startup Founder</p>
+          </div>
+          <div style="background: #f9fafb; padding: 8px; border-radius: 6px;">
+            <p style="color: #374151; margin: 0 0 6px 0; font-style: italic;">"Clean coding practices and comprehensive testing approach exceeded our expectations."</p>
+            <p style="color: #0d9488; margin: 0; font-weight: bold;">- David Thompson, CTO</p>
+          </div>
+        </div>
+      </div>
+
       <div>
         <h3 style="color: #0d9488; font-size: 18px; border-bottom: 2px solid #0d9488; padding-bottom: 4px; margin-bottom: 12px;">Education Background</h3>
         <div style="margin-bottom: 16px;">
