@@ -1,6 +1,7 @@
 import { Mail, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@assets/IMG_7835_1755020333250.jpg";
+import PdfResume from "@/components/pdf-resume";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -29,24 +30,30 @@ export default function HeroSection() {
             <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl" data-testid="hero-description">
               Transforming ideas into elegant, high-performance Flutter apps - 4.5 years of delivering seamless mobile experiences across platforms.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                onClick={() => scrollToSection("contact")}
-                className="inline-flex items-center px-6 py-3 bg-teal-600 text-white font-semibold hover:bg-teal-700"
-                data-testid="button-contact"
-              >
-                <Mail className="w-4 h-4 mr-2" />
-                Get In Touch
-              </Button>
-              <Button
-                variant="outline"
-                onClick={() => scrollToSection("projects")}
-                className="inline-flex items-center px-6 py-3 border-2 border-teal-600 text-teal-600 font-semibold hover:bg-teal-50"
-                data-testid="button-projects"
-              >
-                <Code className="w-4 h-4 mr-2" />
-                View Projects
-              </Button>
+            <div className="space-y-6">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Button
+                  onClick={() => scrollToSection("contact")}
+                  className="inline-flex items-center px-6 py-3 bg-teal-600 text-white font-semibold hover:bg-teal-700"
+                  data-testid="button-contact"
+                >
+                  <Mail className="w-4 h-4 mr-2" />
+                  Get In Touch
+                </Button>
+                <Button
+                  variant="outline"
+                  onClick={() => scrollToSection("projects")}
+                  className="inline-flex items-center px-6 py-3 border-2 border-teal-600 text-teal-600 font-semibold hover:bg-teal-50"
+                  data-testid="button-projects"
+                >
+                  <Code className="w-4 h-4 mr-2" />
+                  View Projects
+                </Button>
+              </div>
+              
+              <div className="flex justify-center lg:justify-start">
+                <PdfResume />
+              </div>
             </div>
           </div>
           <div className="flex-shrink-0">

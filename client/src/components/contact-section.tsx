@@ -1,5 +1,6 @@
 import { Mail, Linkedin, Phone, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import PdfResume from "@/components/pdf-resume";
 
 export default function ContactSection() {
   const contactMethods = [
@@ -66,7 +67,7 @@ export default function ContactSection() {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-12 space-y-8">
             <div className="bg-gradient-to-r from-teal-50 to-blue-50 rounded-xl p-8" data-testid="cta-section">
               <h3 className="text-2xl font-bold text-gray-900 mb-4" data-testid="cta-title">
                 Let's Build Something Amazing Together
@@ -74,16 +75,22 @@ export default function ContactSection() {
               <p className="text-gray-600 mb-6" data-testid="cta-description">
                 Whether you need a cross-platform mobile app, Flutter expertise, or want to discuss your next project, I'm here to help.
               </p>
-              <Button
-                asChild
-                className="inline-flex items-center px-8 py-3 bg-teal-600 text-white font-semibold hover:bg-teal-700"
-                data-testid="cta-button"
-              >
-                <a href="mailto:harikrushnamoradiya2000@gmail.com">
-                  <Send className="w-4 h-4 mr-2" />
-                  Start a Conversation
-                </a>
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
+                <Button
+                  asChild
+                  className="inline-flex items-center px-8 py-3 bg-teal-600 text-white font-semibold hover:bg-teal-700"
+                  data-testid="cta-button"
+                >
+                  <a href="mailto:harikrushnamoradiya2000@gmail.com">
+                    <Send className="w-4 h-4 mr-2" />
+                    Start a Conversation
+                  </a>
+                </Button>
+                
+                <div className="text-center">
+                  <PdfResume />
+                </div>
+              </div>
             </div>
           </div>
         </div>
