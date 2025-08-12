@@ -1,0 +1,123 @@
+Prompt to generate resume website for Harikrushn Rajeshbhai Moradiya:
+
+Create a professional, clean, and visually appealing resume website for Harikrushn Rajeshbhai Moradiya, a SDE-ll Flutter Developer with 4.5 years of experience. The website should have the following sections:
+
+1. Header / Introduction
+Full Name: Harikrushn Rajeshbhai Moradiya
+
+Professional Title: SDE-ll Flutter Developer
+
+Tagline: "Transforming ideas into elegant, high-performance Flutter apps - 4.5 years of delivering seamless mobile experiences across platforms."
+
+2. About Me
+Include a brief bio:
+"I am a highly dedicated Flutter developer with 4.5 years of experience designing and delivering robust, scalable, and visually appealing cross-platform mobile applications. My passion lies in creating seamless user experiences by combining clean code, modern UI/UX principles, and efficient performance optimization. I specialize in Flutter app architecture, state management, and integrating RESTful APIs to build feature-rich apps for both Android and iOS. Always eager to learn and adapt, I focus on writing maintainable code and collaborating effectively within agile teams."
+
+List key technical skills:
+
+Languages: Dart, JavaScript, Kotlin (basic), Swift (basic)
+
+Frameworks & Tools: Flutter, Firebase, Provider, Bloc, GetX
+
+Backend & APIs: RESTful APIs, GraphQL, Firebase Firestore, Firebase Cloud Functions
+
+Databases: SQLite, Hive, Firebase Realtime Database
+
+Version Control: Git, GitHub
+
+CI/CD: GitHub Actions, Codemagic
+
+Other: JSON, XML parsing, Unit & Integration Testing, Agile & Scrum workflows, Figma (UI/UX collaboration)
+
+3. Work Experience
+Include the following role:
+
+SDE-ll Flutter Developer
+Square Infosoft | 2022 - Present
+
+Lead development and delivery of multiple cross-platform mobile applications using Flutter, ensuring high performance and pixel-perfect UI on Android and iOS.
+
+Collaborated with product managers, designers, and backend teams to implement scalable features with Flutter, Firebase, and RESTful APIs.
+
+Implemented CI/CD pipelines with GitHub Actions and Codemagic to automate testing and deployment, reducing release cycles by 30%.
+
+Mentored junior developers and conducted code reviews to maintain high code quality and promote best practices.
+
+Integrated third-party SDKs, payment gateways, and push notification services to enhance functionality and user engagement.
+
+Expert in handling complex code and quick problem solving.
+
+4. Apps & Projects
+Showcase the following apps with descriptions, features, your role, and links:
+
+Photospot App
+AI-driven travel app for personalized trips, user posts, deep linking, and SEO optimization. Developed fully in Flutter for Android/iOS.
+Features: AI itinerary, user posts, deep linking, tours/hotels/Amazon integrations, in-app purchases.
+Role: Lead + Developer
+Links:
+Google Play: https://play.google.com/store/apps/details?id=com.photospot.android
+App Store: https://apps.apple.com/us/app/photospot-for-travel-photos/id6461773115
+Website: https://photospot.us
+
+MTV App
+Engaging animations, offline support, deep linking, secure in-app purchases.
+Role: Lead + Developer
+Links:
+Google Play: https://play.google.com/store/apps/details?id=com.mytruevalue.self3
+App Store: https://apps.apple.com/us/app/6470752647
+
+Dscvr
+Real-time user presence and live tracking with geofencing, interactive maps, and daily notifications.
+Role: Lead + Developer
+Links:
+Google Play: https://play.google.com/store/apps/details?id=com.snapsales.dscvr
+App Store: https://apps.apple.com/us/app/1454377592
+
+Quote App
+Curated quotes with swipe interface, light/dark themes, customizable fonts, offline mode, and daily notifications.
+Role: Lead + Developer
+Links:
+Google Play: https://play.google.com/store/apps/details?id=com.kabalarian.app.android
+App Store: https://apps.apple.com/us/app/6443553584
+
+COC Admin
+Admin dashboard for managing user-created layouts, approvals, and content moderation for Clash of Clans app.
+Role: Developer
+Link: https://cocbases-eae12.web.app/login
+
+College Review App
+Multi-level question forms, speech-to-text note-taking, image attachments, PDF exports for campus reviews.
+Role: Lead + Developer
+Links:
+Google Play: https://play.google.com/store/apps/details?id=com.visitcollege.android
+App Store: https://apps.apple.com/us/app/6480163259
+
+5. Skills
+Categorize and list your skills as:
+
+Languages: Dart, JavaScript, Kotlin, Swift, Java
+
+Frameworks & Libraries: Flutter, Flutter Bloc, Provider, GetX, Firebase, GraphQL, REST APIs
+
+Tools & Platforms: Android Studio, Xcode, Visual Studio Code, Git & GitHub, CI/CD (GitHub Actions, Codemagic), Firebase CLI, Postman
+
+Other Skills: Clean Architecture, MVVM, SOLID Principles, Unit & Integration Testing, Widget Testing, Performance Optimization, Localization, Accessibility
+
+6. Contact
+Include:
+
+Email: harikrushnamoradiya2000@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/harikrushn-moradiya-266713219
+
+Mobile: +91 6353742254
+
+Design preferences:
+
+Clean, modern, and easy to navigate layout
+
+Use a professional color scheme with subtle accents (preferably blue or teal)
+
+Responsive design for desktop and mobile
+
+Please generate the full HTML/CSS/JS (or React/Flutter Web) code and content for the website based on above details.
