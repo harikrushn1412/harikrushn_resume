@@ -49,12 +49,14 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="flex-shrink-0">
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
-              alt="Harikrushn Moradiya - Flutter Developer"
-              className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl border-8 border-white"
-              data-testid="hero-image"
-            />
+            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-teal-100 to-blue-100 shadow-2xl border-8 border-white flex items-center justify-center" data-testid="hero-image">
+              <div className="text-center">
+                <div className="w-20 h-20 bg-teal-600 rounded-full flex items-center justify-center mb-4 mx-auto">
+                  <span className="text-3xl font-bold text-white">HM</span>
+                </div>
+                <p className="text-sm text-gray-600 font-medium">Your Photo Here</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

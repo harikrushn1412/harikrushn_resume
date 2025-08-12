@@ -78,7 +78,7 @@ export default function SkillsSection() {
               {frameworks.map((framework, index) => (
                 <span 
                   key={framework}
-                  className={`inline-block px-3 py-1 ${skillColors[index % skillColors.length]} rounded-full text-sm`}
+                  className={`inline-block px-3 py-1 ${skillColors[index % skillColors.length]} rounded-full text-sm mr-2 mb-2`}
                   data-testid={`framework-${framework.toLowerCase().replace(/\s+/g, '-')}`}
                 >
                   {framework}
@@ -97,7 +97,7 @@ export default function SkillsSection() {
               {tools.map((tool, index) => (
                 <span 
                   key={tool}
-                  className={`inline-block px-3 py-1 ${skillColors[index % skillColors.length]} rounded-full text-sm`}
+                  className={`inline-block px-3 py-1 ${skillColors[index % skillColors.length]} rounded-full text-sm mr-2 mb-2`}
                   data-testid={`tool-${tool.toLowerCase().replace(/\s+/g, '-')}`}
                 >
                   {tool}
@@ -116,7 +116,7 @@ export default function SkillsSection() {
               {otherSkills.map((skill, index) => (
                 <span 
                   key={skill}
-                  className={`inline-block px-3 py-1 ${skillColors[index % skillColors.length]} rounded-full text-sm`}
+                  className={`inline-block px-3 py-1 ${skillColors[index % skillColors.length]} rounded-full text-sm mr-2 mb-2`}
                   data-testid={`other-skill-${skill.toLowerCase().replace(/\s+/g, '-')}`}
                 >
                   {skill}
